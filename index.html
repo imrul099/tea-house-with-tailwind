@@ -12,6 +12,9 @@
       rel="stylesheet"
     />
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- tailwind cdn with daisy UI-->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css"
@@ -27,6 +30,30 @@
     </style>
   </head>
   <body>
-
+    <header class="container mx-auto">
+      <div class="hero">
+        <div class="hero-content gap-10 flex-col lg:flex-row">
+          <div class="">
+            <h1 class="text-[80px] font-[800] leading-tight mb-4">It's good <br> 
+              tea time at The <br>
+              Tea House</h1>
+            <p class="font-[500] opacity-70 mb-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="btn btn-primary bg-gradient-to-r from-[#F00] to-[#FF8938] text-white">Explore More
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+          <div>
+            <img src="./images/banner.png" class="max-w-md" />
+            <div class="flex items-center gap-3 bg-red-50 w-56 p-3 drop-shadow-lg translate-x-9 -translate-y-14 rounded-md">
+              <i class="fa-solid fa-star text-4xl text-orange-500"></i>
+              <div class="">
+                <h3 class="text-[30px] font-[800]">5.00</h3>
+                <p class="font-[600] opacity-70">Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
